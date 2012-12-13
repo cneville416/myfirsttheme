@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<?php get_header()?>
+			
 	</head>
 	
 	<body>
@@ -13,7 +14,10 @@
 				<?php get_template_part('nav') //includes nav.php ?>
 			</nav>
 			<div id="main">
-				<?php 
+				<div class="row">
+					<!-- Main Column -->
+					<div class="span7">
+					<?php 
 				/**
 				 * check to see if the current request...
 				 * is_category()
@@ -30,8 +34,20 @@
 					get_template_part('content','home');
 				}elseif (is_page() || is_single()) {
 					get_template_part('content','single');
+				}elseif (is_search()) {
+					get_template_part('content','search');
+				}else {
+					get_template_part('content','blog');
 				}
 				?>
+				
+					</div>
+					<!-- Right Sidebar -->
+					<div class="span4">
+					<a class="pull-right" href="<?php echo admin_url()?>"><i class="icon-cog"></i></a>
+						<?php get_sidebar() ?>
+					</div>
+			</div>
 			</div>
 			<footer>
 				<?php get_footer()?>
