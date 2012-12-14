@@ -4,8 +4,5 @@
 		<div class="story-content">
 			<?php the_content() ?>
 		</div>
-		<div class="story-content">
-			<?php comments_template()?>
-		</div>
 	<?php endwhile?>
 	<?php endif?>

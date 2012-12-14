@@ -8,7 +8,8 @@
 	<body>
 		<div id="wrapper">
 			<header>
-				<h1 id="title1"><?php bloginfo('name')?></h1>
+				<h1><a id="title1" href="./"><?php bloginfo('name')?></a></h1>
+				<img  id="logo" src="<?php echo get_template_directory_uri()?>/img/logo3.png"/>
 			</header>
 			<nav id="primary-nav">
 				<?php get_template_part('nav') //includes nav.php ?>
