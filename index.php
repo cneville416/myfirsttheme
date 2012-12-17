@@ -9,7 +9,7 @@
 		<div id="wrapper">
 			<header>
 				<h1><a id="title1" href="./"><?php bloginfo('name')?></a></h1>
-				<img  id="logo" src="<?php echo get_template_directory_uri()?>/img/logo3.png"/>
+				<img  id="logo" src="<?php echo get_template_directory_uri()?>/img/logo3edit2.png"/>
 			</header>
 			<nav id="primary-nav">
 				<?php get_template_part('nav') //includes nav.php ?>

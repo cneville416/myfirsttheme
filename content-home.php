@@ -1,3 +1,7 @@
+<div class="alert">
+<p>welcome back</p>
+</div>
+
 <?php if(have_posts()) :?>
 	<?php while(have_posts()) : the_post() ?>
 		<div class="story-content">

@@ -99,3 +99,17 @@ nav ul li a:hover {
 google.loader.themes.SHINY {
 	background-color:cyan;
 }
+
+.highlight {
+	background-color:gray;
+}
+
+.span7 {
+	transition:background-color 1.5s;
+	-webkit-transition:background-color 1.5s;
+	
+}
+
+.deleting {
+	background-color:red;
+}
