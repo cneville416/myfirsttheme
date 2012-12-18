@@ -113,3 +113,12 @@ google.loader.themes.SHINY {
 .deleting {
 	background-color:red;
 }
+
+textarea {
+	width:500px;
+	margin-right:10px;
+}
+
+.span2 {
+	width:165px;
+}

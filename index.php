@@ -45,7 +45,7 @@
 					</div>
 					<!-- Right Sidebar -->
 					<div class="span4">
-					<a class="pull-right" href="<?php echo admin_url()?>"><i class="icon-cog"></i></a>
+					<a class="pull-right login" href="<?php echo admin_url()?>"><i class="icon-cog"></i></a>
 						<?php get_sidebar() ?>
 					</div>
 			</div>

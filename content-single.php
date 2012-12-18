@@ -5,7 +5,15 @@
 			<?php the_content() ?>
 		</div>
 		<div class="story-content">
-			<?php comments_template()?>
+			<?php
+			if(comments_open()) :
+				//display comments
+				$comments = get_comments(array('post_id'=>$post->ID));
+				wp_list_comments(null,$comments);
+				
+			iblog_comment_form();
+			?>
 		</div>
+	<?php endif?>
 	<?php endwhile?>
 	<?php endif?>
