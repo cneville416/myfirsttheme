@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<?php get_header()?>
-			
+			<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri()?>/img/logo3edit.png" />
 	</head>
 	
 	<body>
@@ -17,7 +17,7 @@
 			<div id="main">
 				<div class="row">
 					<!-- Main Column -->
-					<div class="span7">
+					<div class="span9">
 					<?php 
 				/**
 				 * check to see if the current request...
@@ -44,7 +44,7 @@
 				
 					</div>
 					<!-- Right Sidebar -->
-					<div class="span4">
+					<div class="span3">
 					<a class="pull-right login" href="<?php echo admin_url()?>"><i class="icon-cog"></i></a>
 						<?php get_sidebar() ?>
 					</div>

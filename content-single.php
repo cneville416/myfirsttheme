@@ -5,13 +5,12 @@
 			<?php the_content() ?>
 		</div>
 		<div class="story-content">
-			<?php
-			if(comments_open()) :
+		<?php if(comments_open()) :
 				//display comments
 				$comments = get_comments(array('post_id'=>$post->ID));
 				wp_list_comments(null,$comments);
 				
-			iblog_comment_form();
+				iblog_comment_form();
 			?>
 		</div>
 	<?php endif?>

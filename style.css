@@ -115,10 +115,22 @@ google.loader.themes.SHINY {
 }
 
 textarea {
-	width:500px;
+	width:575px;
 	margin-right:10px;
 }
 
 .span2 {
 	width:165px;
+}
+
+label {
+	float:left;	
+	margin:0px 5px;
+}
+
+#commhead {
+	background:#006dcc;
+	width:165px;
+	border:1px solid #006dcc:;
+	border-radius:5px;
 }
