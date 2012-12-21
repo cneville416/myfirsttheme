@@ -134,3 +134,26 @@ label {
 	border:1px solid #006dcc:;
 	border-radius:5px;
 }
+
+.join {
+	background:#000;
+	color:white;
+}
+
+.leave {
+	background:#fff;
+	color:black;
+}
+
+.story-content {
+	background:#616161;
+}
+
+body {
+	background:#C4C4C4;
+	color:black;
+}
+
+comment even thread-even depth-1 {
+	list-style:none;
+}

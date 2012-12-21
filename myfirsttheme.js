@@ -4,7 +4,9 @@ $(function(){
 	/*$('#main .row .span7').click(function(){
 		$(this).addClass('highlight');
 	});*/
-	
+	/*$('textarea').click(function(){
+	$(this).addClass('join');
+});*/
 	/*$('#main .row .span4').hover(
 		function(){
 			$(this).addClass('highlight');
@@ -16,6 +18,10 @@ $(function(){
 	$('p').dblclick(function(){
 		$(this).addClass('deleting');
 		$(this).slideUp(1000);
+	});*/
+		
+	/*$('textarea').dblclick(function(){
+		$(this).addClass('leave');
 	});*/
 	
 	$(document).keyup(function(e){
